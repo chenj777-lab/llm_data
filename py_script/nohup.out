@@ -1,0 +1,55 @@
+Token indices sequence length is longer than the specified maximum sequence length for this model (4566 > 4096). Running this sequence through the model will result in indexing errors
+Traceback (most recent call last):
+  File "token_len.py", line 73, in <module>
+    gf.write(json.dumps(info,ensure_ascii=False)+'\n')
+NameError: name 'gf' is not defined
+Traceback (most recent call last):
+  File "token_len.py", line 73, in <module>
+    gf.write(json.dumps(info,ensure_ascii=False)+'\n')
+NameError: name 'gf' is not defined
+Token indices sequence length is longer than the specified maximum sequence length for this model (9504 > 4096). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (4566 > 4096). Running this sequence through the model will result in indexing errors
+Traceback (most recent call last):
+  File "token_len.py", line 52, in <module>
+    w.write("gt"+thres+'\n')
+TypeError: can only concatenate str (not "int") to str
+  File "tokenizer_out_list", line 1
+    /nlp_group/chenzhengzong/rm_dataset/RM/from_qa_test/0613/merge.json:83
+    ^
+SyntaxError: invalid syntax
+  File "tokenizer_out_list", line 1
+    /nlp_group/chenzhengzong/rm_dataset/RM/from_qa_test/0613/merge.json:83
+    ^
+SyntaxError: invalid syntax
+Token indices sequence length is longer than the specified maximum sequence length for this model (9504 > 4096). Running this sequence through the model will result in indexing errors
+Traceback (most recent call last):
+  File "token_len.py", line 59, in <module>
+    files=+[
+TypeError: bad operand type for unary +: 'list'
+Token indices sequence length is longer than the specified maximum sequence length for this model (9504 > 4096). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (4566 > 4096). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (4566 > 4096). Running this sequence through the model will result in indexing errors
+Traceback (most recent call last):
+  File "token_len.py", line 70, in <module>
+    file+=[
+NameError: name 'file' is not defined
+Traceback (most recent call last):
+  File "token_len.py", line 70, in <module>
+    file+=[
+NameError: name 'file' is not defined
+Traceback (most recent call last):
+  File "token_len.py", line 89, in <module>
+    data=[json.loads(x) for x in open(f).readlines()]
+FileNotFoundError: [Errno 2] No such file or directory: '/nlp_group/chenzhengzong/rm_dataset/RM/for_math/fix_goodbadv3_exp10_0816_infer10_小学数学188.json_with_id.json_repeat5.json_add_tag.jsonl_merged.json '
+Traceback (most recent call last):
+  File "token_len.py", line 89, in <module>
+    data=[json.loads(x) for x in open(f).readlines()]
+FileNotFoundError: [Errno 2] No such file or directory: '/nlp_group/chenzhengzong/rm_dataset/RM/for_math/fix_goodbadv3_exp10_0816_infer10_小学数学188.json_with_id.json_repeat5.json_add_tag.jsonl_merged.json '
+Traceback (most recent call last):
+  File "token_len.py", line 89, in <module>
+    data=[json.loads(x) for x in open(f).readlines()]
+FileNotFoundError: [Errno 2] No such file or directory: '/nlp_group/chenzhengzong/rm_dataset/RM/for_math/fix_goodbadv3_exp10_0816_infer10_小学数学188.json_with_id.json_repeat5.json_add_tag.jsonl_merged.json '
+  File "token_len.py", line 69
+    files+=[
+    ^
+IndentationError: unexpected indent
